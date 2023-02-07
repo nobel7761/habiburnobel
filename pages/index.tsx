@@ -4,7 +4,7 @@ import TopSection from "../src/Components/TopSection";
 
 const index = () => {
   return (
-    <div>
+    <div className="flex flex-col gap-y-3">
       <TopSection />
       <LowerSection />
     </div>

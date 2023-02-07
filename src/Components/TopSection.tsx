@@ -10,10 +10,11 @@ const TopSection = () => {
         <Image
           src="/images/MD HABIBUR RAHAMAN.png"
           alt="DP"
-          width={150}
-          height={150}
-          className="rounded-full mt-10"
+          width={100}
+          height={100}
+          className="rounded-full mt-4"
         />
+        {/* <img src="../public/images/MD HABIBUR RAHAMAN.png" alt="DP" /> */}
       </div>
 
       <div className="text-center my-5 flex flex-col gap-y-2">
