@@ -2,13 +2,14 @@ import Image from "next/image";
 import React from "react";
 import { IoMdCall } from "react-icons/io";
 import { IoSendSharp } from "react-icons/io5";
+import DP from "../../public/images/profile-photo.png";
 
 const TopSection = () => {
   return (
     <div>
       <div className="flex justify-center items-center">
         <Image
-          src="/images/MD HABIBUR RAHAMAN.png"
+          src={DP}
           alt="DP"
           width={100}
           height={100}
