@@ -6,7 +6,7 @@ import { IoSendSharp } from "react-icons/io5";
 const TopSection = () => {
   return (
     <div>
-      <div className="flex justify-center items-center">
+      <div className="w-40 h-40 flex justify-center items-center bg-red-500">
         <Image
           src="/images/MD HABIBUR RAHAMAN.png"
           alt="DP"
