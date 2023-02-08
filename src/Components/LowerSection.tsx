@@ -5,6 +5,8 @@ import { MdWork } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import { TfiLinkedin } from "react-icons/tfi";
 import { BsGithub } from "react-icons/bs";
+import { ImFacebook } from "react-icons/im";
+import Link from "next/link";
 
 const LowerSection = () => {
   return (
@@ -36,15 +38,38 @@ const LowerSection = () => {
       <div className="pl-[68px]">
         <p className="mb-6">Social Media</p>
         <div className="flex gap-x-4 items-center">
-          <div className="bg-[#1BD741] w-8 h-8 rounded-full flex justify-center items-center">
-            <BsWhatsapp className="text-white" />
-          </div>
-          <div className="bg-[#0077B5] w-8 h-8 rounded-full flex justify-center items-center">
-            <TfiLinkedin className="text-white" />
-          </div>
-          <div className="bg-[#000000] w-8 h-8 rounded-full flex justify-center items-center">
-            <BsGithub className="text-white" />
-          </div>
+          {/* facebook */}
+          <Link
+            href="https://www.facebook.com/habibur.rahaman.nobel"
+            target="_blank"
+          >
+            <div className="bg-[#0034B7] w-8 h-8 rounded-full flex justify-center items-center">
+              <ImFacebook className="text-white" />
+            </div>
+          </Link>
+          {/* whatsapp */}
+          <Link href="https://wa.me/+8801521320912" target="_blank">
+            <div className="bg-[#1BD741] w-8 h-8 rounded-full flex justify-center items-center">
+              <BsWhatsapp className="text-white" />
+            </div>
+          </Link>
+
+          {/* linkedin */}
+          <Link
+            href="https://www.linkedin.com/in/habibur-rahaman-nobel/"
+            target="_blank"
+          >
+            <div className="bg-[#0077B5] w-8 h-8 rounded-full flex justify-center items-center">
+              <TfiLinkedin className="text-white" />
+            </div>
+          </Link>
+
+          {/* github */}
+          <Link href="https://github.com/nobel7761" target="_blank">
+            <div className="bg-[#000000] w-8 h-8 rounded-full flex justify-center items-center">
+              <BsGithub className="text-white" />
+            </div>
+          </Link>
         </div>
       </div>
     </div>
