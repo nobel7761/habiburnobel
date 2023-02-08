@@ -54,12 +54,22 @@ const LowerSection = () => {
             </div>
           </Link>
 
-          <div className="bg-[#0077B5] w-8 h-8 rounded-full flex justify-center items-center">
-            <TfiLinkedin className="text-white" />
-          </div>
-          <div className="bg-[#000000] w-8 h-8 rounded-full flex justify-center items-center">
-            <BsGithub className="text-white" />
-          </div>
+          {/* linkedin */}
+          <Link
+            href="https://www.linkedin.com/in/habibur-rahaman-nobel/"
+            target="_blank"
+          >
+            <div className="bg-[#0077B5] w-8 h-8 rounded-full flex justify-center items-center">
+              <TfiLinkedin className="text-white" />
+            </div>
+          </Link>
+
+          {/* github */}
+          <Link href="https://github.com/nobel7761" target="_blank">
+            <div className="bg-[#000000] w-8 h-8 rounded-full flex justify-center items-center">
+              <BsGithub className="text-white" />
+            </div>
+          </Link>
         </div>
       </div>
     </div>
