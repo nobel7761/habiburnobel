@@ -7,15 +7,17 @@ import DP from "../../public/images/profile-photo.png";
 const TopSection = () => {
   return (
     <div>
-      <div className="w-40 h-40 flex justify-center items-center bg-red-500">
-        <Image
-          src={DP}
-          alt="DP"
-          width={100}
-          height={100}
-          className="rounded-full mt-4"
-        />
-        {/* <img src="../public/images/MD HABIBUR RAHAMAN.png" alt="DP" /> */}
+      <div className="flex justify-center items-center mt-24">
+        <div className="w-40 h-40 flex justify-center items-center rounded-full overflow-hidden bg-red-500  ring-offset-2 ring-2 ring-blue-500">
+          <Image
+            src={DP}
+            alt="DP"
+            width={500}
+            height={500}
+            className="rounded-full mt-6"
+          />
+          {/* <img src="../public/images/MD HABIBUR RAHAMAN.png" alt="DP" /> */}
+        </div>
       </div>
 
       <div className="text-center my-5 flex flex-col gap-y-2">
