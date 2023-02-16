@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { IoMdCall } from "react-icons/io";
 import { IoSendSharp } from "react-icons/io5";
-import DP from "../../public/images/profile-photo.png";
+import DP from "../../../public/images/profile-photo.png";
 
 const TopSection = () => {
   return (
@@ -26,10 +26,12 @@ const TopSection = () => {
       </div>
 
       <div className="flex justify-center gap-x-32">
-        <div className="flex flex-col gap-y-1 justify-center items-center">
-          <IoMdCall className="text-xl" />
-          <p className="text-sm">CALL</p>
-        </div>
+        <a href="tel:+8801521320912">
+          <div className="flex flex-col gap-y-1 justify-center items-center">
+            <IoMdCall className="text-xl" />
+            <p className="text-sm">CALL</p>
+          </div>
+        </a>
         <div className="flex flex-col gap-y-1 justify-center items-center">
           <IoSendSharp className="text-xl" />
           <p className="text-sm">EMAIL</p>

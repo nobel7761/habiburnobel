@@ -1,7 +1,7 @@
 import React from "react";
 import { IoMdCall } from "react-icons/io";
 import { HiEnvelope } from "react-icons/hi2";
-import { MdWork } from "react-icons/md";
+import { MdBloodtype, MdWork } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import { TfiLinkedin } from "react-icons/tfi";
 import { BsGithub } from "react-icons/bs";
@@ -32,6 +32,14 @@ const LowerSection = () => {
         <div className="border-b border-gray-300 w-full pb-4">
           <p className="text-sm">Bit Software Solutions</p>
           <p className="text-gray-500 text-sm">Full Stack Web Developer</p>
+        </div>
+      </div>
+
+      <div className="flex gap-x-4   w-full pl-6">
+        <MdBloodtype className="text-3xl text-[#B3B4BB]" />
+        <div className="border-b border-gray-300 w-full pb-4">
+          <p className="text-sm">A+</p>
+          <p className="text-gray-500 text-sm">Blood Group</p>
         </div>
       </div>
 
