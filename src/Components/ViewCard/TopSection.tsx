@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { IoMdCall } from "react-icons/io";
 import { IoSendSharp } from "react-icons/io5";
@@ -8,7 +9,7 @@ const TopSection = () => {
   return (
     <div>
       <div className="flex justify-center items-center mt-24">
-        <div className="w-40 h-40 flex justify-center items-center rounded-full overflow-hidden bg-red-500  ring-offset-2 ring-2 ring-blue-500">
+        <div className="w-40 h-40 flex justify-center items-center rounded-full overflow-hidden bg-red-500 ring-offset-2 ring-2 ring-blue-500">
           <Image
             src={DP}
             alt="DP"
@@ -16,7 +17,6 @@ const TopSection = () => {
             height={500}
             className="rounded-full mt-6"
           />
-          {/* <img src="../public/images/MD HABIBUR RAHAMAN.png" alt="DP" /> */}
         </div>
       </div>
 
@@ -26,12 +26,12 @@ const TopSection = () => {
       </div>
 
       <div className="flex justify-center gap-x-32">
-        <a href="tel:+8801521320912">
+        <Link href="tel:+8801521320912">
           <div className="flex flex-col gap-y-1 justify-center items-center">
             <IoMdCall className="text-xl" />
             <p className="text-sm">CALL</p>
           </div>
-        </a>
+        </Link>
         <div className="flex flex-col gap-y-1 justify-center items-center">
           <IoSendSharp className="text-xl" />
           <p className="text-sm">EMAIL</p>
