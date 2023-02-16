@@ -32,10 +32,12 @@ const TopSection = () => {
             <p className="text-sm">CALL</p>
           </div>
         </Link>
-        <div className="flex flex-col gap-y-1 justify-center items-center">
-          <IoSendSharp className="text-xl" />
-          <p className="text-sm">EMAIL</p>
-        </div>
+        <Link href="mailto:habiburnobel@gmail.com">
+          <div className="flex flex-col gap-y-1 justify-center items-center">
+            <IoSendSharp className="text-xl" />
+            <p className="text-sm">EMAIL</p>
+          </div>
+        </Link>
       </div>
     </div>
   );
