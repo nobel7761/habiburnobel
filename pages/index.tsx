@@ -5,8 +5,7 @@ import TopSection from "../src/Components/ViewCard/TopSection";
 
 const index = () => {
   return (
-    <div className="flex flex-col gap-y-3">
-      <h1>base page</h1>
+    <div className="h-screen flex justify-center items-center">
       <Link href="/viewcard">
         <button>Go to View Card</button>
       </Link>
